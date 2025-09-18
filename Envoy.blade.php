@@ -3,7 +3,7 @@ require __DIR__.'/vendor/autoload.php';
 
 $server = "stitcher.io";
 $userAndServer = 'forge@'. $server;
-$repository = "brendt/rfc-vote.git";
+$repository = "rfc-vote/rfc-vote.git";
 $baseDir = "/home/forge/rfc.stitcher.io";
 $releasesDir = "{$baseDir}/releases";
 $currentDir = "{$baseDir}/current";

@@ -7,7 +7,7 @@
             RSS Feed
         </x-footer.link>
 
-        <x-footer.link href="https://github.com/brendt/rfc-vote" icon="icons.github">
+        <x-footer.link href="https://github.com/rfc-vote/rfc-vote" icon="icons.github">
             Contribute
         </x-footer.link>
 
@@ -15,7 +15,7 @@
             Watch on YouTube
         </x-footer.link>
 
-        <x-footer.link href="https://raw.githubusercontent.com/brendt/rfc-vote/main/LICENSE.md" icon="icons.document">
+        <x-footer.link href="https://raw.githubusercontent.com/rfc-vote/rfc-vote/main/LICENSE.md" icon="icons.document">
             Our License
         </x-footer.link>
     </div>
@@ -23,7 +23,7 @@
     <div class="text-center opacity-70 mt-7">
         <small>
             &copy; {{ date('Y') }} {{ config('app.name') }}. This project is open source.
-            <a href="https://github.com/brendt/rfc-vote" class="underline" target="_blank">Contribute</a>
+            <a href="https://github.com/rfc-vote/rfc-vote" class="underline" target="_blank">Contribute</a>
             and collaborate with us!</p>
         </small>
     </div>

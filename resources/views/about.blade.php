@@ -41,8 +41,8 @@
 
 <x-about.section heading="Who's involved?">
     <p>Many people throughout the PHP community have already
-        <x-about.link href="https://github.com/brendt/rfc-vote/graphs/contributors">contributed to this project</x-about.link>
-        — and <x-about.link href="https://github.com/brendt/rfc-vote">you can too</x-about.link>!</p>
+        <x-about.link href="https://github.com/rfc-vote/rfc-vote/graphs/contributors">contributed to this project</x-about.link>
+        — and <x-about.link href="https://github.com/rfc-vote/rfc-vote">you can too</x-about.link>!</p>
 
     <p>The initial idea came from <x-about.link href="https://twitter.com/pronskiy">Roman Pronskiy</x-about.link>,
         who helps administer the <x-about.link href="https://thephp.foundation/">PHP Foundation</x-about.link>,
@@ -70,7 +70,7 @@
 <x-about.section heading="Interesting links">
     <ul {{dusk('interesting-links-container')}}>
         <li>
-            <x-about.link href="https://github.com/brendt/rfc-vote">
+            <x-about.link href="https://github.com/rfc-vote/rfc-vote">
                 <x-icons.link class="w-4 h-4 inline-block mr-1" />
                 The RFC Vote repository
             </x-about.link>
