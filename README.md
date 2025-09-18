@@ -61,7 +61,7 @@ the specific documentation on Sail page for [Laravel Dusk](https://laravel.com/d
     In your `.env` file, add the following line:
 
     ```dotenv
-    # For Apple Silicon (m1, m2) replace the value with seleniarm/standalone-chromium, see https://laravel.com/docs/10.x/sail#laravel-dusk for more details
+    # For Apple Silicon (m1, m2, etc.) replace the value with seleniarm/standalone-chromium, see https://laravel.com/docs/10.x/sail#laravel-dusk for more details
     SELENIUM_IMAGE=selenium/standalone-chrome
     ```
    This enables the choice of selenium image as per your system's architecture. For more context on this, please refer to [this PR discussion](https://github.com/rfc-vote/rfc-vote/pull/234#issuecomment-1700920222)
