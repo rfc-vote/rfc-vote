@@ -64,7 +64,7 @@
                 @endif
             </div>
 
-            <div class="prose text-lg text-font max-w-full">
+            <div class="prose text-lg text-font max-w-full min-w-0">
                 {!! md($rfc->description) !!}
             </div>
 

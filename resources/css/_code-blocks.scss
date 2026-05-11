@@ -1,6 +1,12 @@
 // Read more here: https://tempestphp.com/docs/highlight/getting-started/
 
 .prose pre,
+pre {
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+.prose pre,
 .prose code,
 pre, code {
     background-color: #f6f8fa;
