@@ -18,7 +18,7 @@ class UserList extends Component
     public function render(): View
     {
         return view('livewire.user-list', [
-            'users' => \App\Models\User::query()
+            'users' => User::query()
                 ->where('name', 'like', '%'.$this->search.'%')
                 ->orWhere('email', 'like', '%'.$this->search.'%')
                 ->paginate(20),

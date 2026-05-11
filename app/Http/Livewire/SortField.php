@@ -2,6 +2,7 @@
 
 namespace App\Http\Livewire;
 
+use App\Models\Argument;
 use Illuminate\Database\Eloquent\Builder;
 
 enum SortField: string
@@ -10,8 +11,8 @@ enum SortField: string
     case CREATED_AT = 'created_at';
 
     /**
-     * @param  \Illuminate\Database\Eloquent\Builder<\App\Models\Argument>  $query
-     * @return \Illuminate\Database\Eloquent\Builder<\App\Models\Argument>
+     * @param  Builder<Argument>  $query
+     * @return Builder<Argument>
      */
     public function applySort(Builder $query): Builder
     {
